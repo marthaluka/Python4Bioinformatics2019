@@ -21,6 +21,7 @@ def get_genes(infile,outfile):
             outfile.write(i+'\n')
     return True
 
-infile = sys.argv[1]
-output = sys.argv[2]
-get_genes(infile,output)
+infile = sys.argv[1] #0 is the name of your script, 1 is the infile, 2 is the outfile #argument variable
+outfile = sys.argv[2] #this applies when calling the script on command line
+get_genes(infile,outfile)
+
